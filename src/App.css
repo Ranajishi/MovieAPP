@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.linknav:hover{
+  color: rgb(173, 43, 43);
+  }
+
+.rana {
+  color: blue;
+}  
+.buttonh{
+  background-color:rgb(36, 36, 37);
+  border: rgb(103, 103, 104);;
+
+
+}
+.buttonh:hover {
+  background-color:rgb(189, 189, 192); /*will change background-color of element on hover */
+  color: rgb(0, 0, 0);
+  border: rgb(103, 103, 104);
+  font-weight:600;
+
+}
+.buttonh:active {
+  --bs-btn-active-bg:rgb(109, 109, 112);;
+  --bs-btn-active-border-color: rgb(103, 103, 104);;
+  --bs-btn-active-color: rgb(0, 0, 0);
+}
+
+.cardd:hover{
+  background-color:rgb(223, 223, 226);
+  color: rgb(0, 0, 0);
+}
